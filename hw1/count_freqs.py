@@ -69,7 +69,7 @@ def get_ngrams(sent_iterator, n):
          w_boundary.extend(sent)
          w_boundary.append((None, "STOP"))
          #Then extract n-grams
-         ngrams = (tuple(w_boundary[i:i+n]) for i in xrange(len(w_boundary)-n+1))
+         ngrams = (tuple(w_boundary[i:i+n]) for i in range(len(w_boundary)-n+1))
          for n_gram in ngrams: #Return one n-gram at a time
             yield n_gram        
 
@@ -83,7 +83,7 @@ class Hmm(object):
         assert n>=2, "Expecting n>=2."
         self.n = n
         self.emission_counts = defaultdict(int)
-        self.ngram_counts = [defaultdict(int) for i in xrange(self.n)]
+        self.ngram_counts = [defaultdict(int) for i in range(self.n)]
         self.all_states = set()
 
     def train(self, corpus_file):
@@ -98,7 +98,7 @@ class Hmm(object):
             assert len(ngram) == self.n, "ngram in stream is %i, expected %i" % (len(ngram, self.n))
 
             tagsonly = tuple([ne_tag for word, ne_tag in ngram]) #retrieve only the tags            
-            for i in xrange(2, self.n+1): #Count NE-tag 2-grams..n-grams
+            for i in range(2, self.n+1): #Count NE-tag 2-grams..n-grams
                 self.ngram_counts[i-1][tagsonly[-i:]] += 1
             
             if ngram[-1][0] is not None: # If this is not the last word in a sentence
@@ -130,7 +130,7 @@ class Hmm(object):
 
         self.n = 3
         self.emission_counts = defaultdict(int)
-        self.ngram_counts = [defaultdict(int) for i in xrange(self.n)]
+        self.ngram_counts = [defaultdict(int) for i in range(self.n)]
         self.all_states = set()
 
         for line in corpusfile:
@@ -149,10 +149,10 @@ class Hmm(object):
 
 
 def usage():
-    print """
+    print("""
     python count_freqs.py [input_file] > [output_file]
         Read in a named entity tagged training input file and produce counts.
-    """
+    """)
 
 if __name__ == "__main__":
 
@@ -161,9 +161,9 @@ if __name__ == "__main__":
         sys.exit(2)
 
     try:
-        input = file(sys.argv[1],"r")
+        input = open(sys.argv[1],"r")
     except IOError:
-        sys.stderr.write("ERROR: Cannot read inputfile %s.\n" % arg)
+        sys.stderr.write("ERROR: Cannot read inputfile %s.\n" % sys.argv)
         sys.exit(1)
     
     # Initialize a trigram counter

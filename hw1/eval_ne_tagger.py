@@ -127,7 +127,7 @@ class Evaluator(object):
 
         total = 0
         for gs_word, gs_tag in gold_standard: # Move through the gold standard stream
-            pred_word, pred_tag = prediction.next() # Get the corresponding item from the prediction stream
+            pred_word, pred_tag = next(prediction) # Get the corresponding item from the prediction stream
             
             # Make sure words in both files match up
             if gs_word != pred_word:
@@ -211,7 +211,7 @@ class Evaluator(object):
         Output a table with accuracy, precision, recall and F1 score. 
         """
 
-        print "Found %i NEs. Expected %i NEs; Correct: %i.\n" % (self.tp + self.fp, self.tp + self.fn, self.tp)
+        print("Found %i NEs. Expected %i NEs; Correct: %i.\n" % (self.tp + self.fp, self.tp + self.fn, self.tp))
 
 
         if self.tp + self.tn + self.fp + self.fn == 0: # There was nothing to do.
@@ -231,9 +231,9 @@ class Evaluator(object):
         else:
             rec = self.tp / float(self.tp + self.fn)
 
-        print "\t precision \trecall \t\tF1-Score"
+        print("\t precision \trecall \t\tF1-Score")
         fscore = (2*prec*rec)/(prec+rec)
-        print "Total:\t %f\t%f\t%f" % (prec, rec, fscore)
+        print("Total:\t %f\t%f\t%f" % (prec, rec, fscore))
         for c in self.ne_classes:
             c_tp = self.class_counts[c].tp
             c_tn = self.class_counts[c].tn
@@ -264,7 +264,7 @@ class Evaluator(object):
                 fscore = 0
             else:    
                 fscore = (2*c_prec * c_rec)/(c_prec + c_rec)
-            print "%s:\t %f\t%f\t%f" % (c, c_prec, c_rec, fscore)
+            print("%s:\t %f\t%f\t%f" % (c, c_prec, c_rec, fscore))
 
 
 def usage():
@@ -279,8 +279,8 @@ if __name__ == "__main__":
     if len(sys.argv)!=3:
         usage()
         sys.exit(1)
-    gs_iterator = corpus_iterator(file(sys.argv[1]))
-    pred_iterator = corpus_iterator(file(sys.argv[2]), with_logprob = True)
+    gs_iterator = corpus_iterator(open(sys.argv[1]))
+    pred_iterator = corpus_iterator(open(sys.argv[2]), with_logprob = True)
     evaluator = Evaluator()
     evaluator.compare(gs_iterator, pred_iterator)
     evaluator.print_scores()

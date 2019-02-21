@@ -88,14 +88,3 @@ with open('6.txt', 'w') as outfile:
             outfile.write('\n')
             x = []
 
-# PERFORMANCE
-# Found 5556 NEs. Expected 5931 NEs; Correct: 4273.
-#
-#          precision      recall          F1-Score
-# Total:   0.769078       0.720452        0.743971
-# PER:     0.813967       0.773667        0.793305
-# ORG:     0.584724       0.680867        0.629144
-# LOC:     0.869128       0.706107        0.779182
-# MISC:    0.847569       0.700326        0.766944
-
-# Though the precision decreased, the recall greatly increased, giving the best f1-scores.

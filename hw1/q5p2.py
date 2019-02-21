@@ -76,15 +76,3 @@ with open('5_2.txt', 'w') as outfile:
                 outfile.write(x[i] + ' ' + labels[i] + ' ' + str(pis[i]) + '\n')
             outfile.write('\n')
             x = []
-
-# PERFORMANCE
-# Found 4661 NEs. Expected 5931 NEs; Correct: 3657.
-#
-#          precision      recall          F1-Score
-# Total:   0.784596       0.616591        0.690521
-# PER:     0.744311       0.605005        0.667467
-# ORG:     0.659729       0.473842        0.551544
-# LOC:     0.887883       0.695202        0.779817
-# MISC:    0.825974       0.690554        0.752218
-
-# The performance is not terrible, with higher precision than recall.

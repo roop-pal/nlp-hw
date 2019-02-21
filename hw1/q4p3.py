@@ -48,16 +48,3 @@ with open('4.txt', 'w') as outfile:
         if line:
             outfile.write(' '.join(tag(line)))
         outfile.write('\n')
-
-# PERFORMANCE
-# Found 14043 NEs. Expected 5931 NEs; Correct: 3117.
-#
-#          precision      recall          F1-Score
-# Total:   0.221961       0.525544        0.312106
-# PER:     0.435451       0.231230        0.302061
-# ORG:     0.475936       0.399103        0.434146
-# LOC:     0.147750       0.870229        0.252612
-# MISC:    0.491689       0.610206        0.544574
-
-# Unsurprisingly such a naive method has very low overall f-1 scores.
-# It's interesting to note that recall outperforms precision.

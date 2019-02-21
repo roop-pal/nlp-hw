@@ -18,6 +18,7 @@ def classify(s):
     if all([i == '-' for i in s]):
         return '_DASHES_'
     s = s.replace('-','')
+    s = s.replace('.','')
     if s.isupper() and len(s) < 4:
         return '_ABBREV_'
     if s[0].isupper() and s[1:].islower():

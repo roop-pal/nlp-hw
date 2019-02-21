@@ -5715,7 +5715,7 @@ Tom I-PER
 Lehman I-PER
 
 73 O
-_RARE_ I-PER
+_ABBREV_ I-PER
 _PROPER_ I-PER
 , O
 Brad I-PER
@@ -7418,7 +7418,7 @@ with O
 English I-MISC
 league O
 and O
-_RARE_ I-MISC
+_ABBREV_ I-MISC
 Cup I-MISC
 champions O
 Manchester I-ORG
@@ -11046,7 +11046,7 @@ winning O
 record O
 at O
 the O
-_RARE_ I-MISC
+_ABBREV_ I-MISC
 Central I-MISC
 leaders O
 ' O
@@ -11275,7 +11275,7 @@ Yankees I-ORG
 lead O
 in O
 the O
-_RARE_ I-MISC
+_ABBREV_ I-MISC
 East I-MISC
 to O
 five O
@@ -20921,7 +20921,7 @@ _PROPER_ I-PER
 _ABBREV_ I-LOC
 _RARE_ I-LOC
 , O
-_RARE_ O
+_ABBREV_ O
 1996-08-22 O
 
 Miss I-MISC
@@ -23629,7 +23629,7 @@ China I-LOC
 
 Foreign O
 Minister O
-_RARE_ I-PER
+_ABBREV_ I-PER
 Gujral I-PER
 was O
 asked O
@@ -24579,7 +24579,7 @@ _DIGIT_ O
 
 Prime O
 Minister O
-_RARE_ I-PER
+_ABBREV_ I-PER
 _PROPER_ I-PER
 _PROPER_ I-PER
 's O
@@ -39287,7 +39287,7 @@ _ABBREV_ I-ORG
 _PARTNUM_ O
 Mideast I-LOC
 / O
-_RARE_ I-LOC
+_ABBREV_ I-LOC
 India I-LOC
 _PARTNUM_ O
 , O
@@ -40458,7 +40458,7 @@ Friday O
 . O
 
 The O
-_RARE_ I-ORG
+_ABBREV_ I-ORG
 statement O
 said O
 that O
@@ -44719,7 +44719,7 @@ of O
 _PARTNUM_ O
 old O
 _PROPER_ I-PER
-_RARE_ I-PER
+_ABBREV_ I-PER
 , O
 who O
 told O
@@ -45964,7 +45964,7 @@ bid O
 . O
 
 " O
-_RARE_ O
+_PROPER_ O
 the O
 _RARE_ O
 of O
@@ -48854,7 +48854,7 @@ Police I-ORG
 _PROPER_ O
 of O
 the O
-_RARE_ I-ORG
+_ABBREV_ I-ORG
 and O
 the O
 Bureau I-ORG
@@ -52042,14 +52042,14 @@ stated O
 
 Shr O
 ( O
-_RARE_ I-LOC
+_ABBREV_ I-LOC
 cents O
 ) O
 _PARTNUM_ O
 
 Dividend O
 ( O
-_RARE_ I-LOC
+_ABBREV_ I-LOC
 cents O
 ) O
 nil O
@@ -54436,7 +54436,7 @@ through O
 8 O
 
 _PARTNUM_ O
-_RARE_ I-PER
+_ABBREV_ I-PER
 _PROPER_ I-PER
 through O
 12 O
@@ -68390,7 +68390,7 @@ Britain I-LOC
 74 O
 
 _DIGIT_ O
-_RARE_ I-PER
+_ABBREV_ I-PER
 _PROPER_ I-PER
 73 O
 69 O
@@ -73792,7 +73792,7 @@ the O
 weekend O
 : O
 
-_RARE_ I-ORG
+_ABBREV_ I-ORG
 _PROPER_ I-ORG
 1 O
 _PROPER_ I-ORG
@@ -73924,7 +73924,7 @@ _PROPER_ I-ORG
 4 O
 8 O
 
-_RARE_ I-ORG
+_ABBREV_ I-ORG
 _PROPER_ I-ORG
 4 O
 2 O
@@ -82174,7 +82174,7 @@ Most O
 including O
 former O
 president O
-_RARE_ I-PER
+_ABBREV_ I-PER
 de I-PER
 _PROPER_ I-PER
 and O
@@ -82406,7 +82406,7 @@ former O
 _RARE_ O
 apartheid O
 president O
-_RARE_ I-PER
+_ABBREV_ I-PER
 _PROPER_ I-PER
 could O
 be O
@@ -89905,7 +89905,7 @@ Diego I-LOC
 ; O
 _PROPER_ I-LOC
 , O
-_RARE_ I-LOC
+_ABBREV_ I-LOC
 ; O
 Hampshire I-LOC
 , O
@@ -107239,7 +107239,7 @@ in O
 respect O
 for O
 a O
-_RARE_ I-LOC
+_ABBREV_ I-LOC
 national O
 holiday O
 . O
@@ -112977,7 +112977,7 @@ _PROPER_ I-LOC
 , O
 _PROPER_ I-LOC
 
-_RARE_ O
+_ABBREV_ O
 : O
 _PROPER_ I-ORG
 & I-ORG
@@ -112985,7 +112985,7 @@ Johnson I-ORG
 , O
 _PROPER_ I-LOC
 
-_RARE_ O
+_ABBREV_ O
 : O
 _PROPER_ I-ORG
 , I-ORG
@@ -113044,7 +113044,7 @@ _RARE_ O
 _RARE_ O
 _RARE_ O
 BY O
-_RARE_ I-ORG
+_ABBREV_ I-ORG
 _RARE_ I-ORG
 _RARE_ O
 : O
@@ -113190,7 +113190,7 @@ Sachs I-ORG
 Co I-ORG
 . O
 
-_RARE_ I-ORG
+_ABBREV_ I-ORG
 Edwards I-ORG
 & I-ORG
 _PROPER_ I-ORG
@@ -113203,7 +113203,7 @@ One I-ORG
 Capital I-ORG
 Corporation I-ORG
 
-_RARE_ I-ORG
+_ABBREV_ I-ORG
 Brooks I-ORG
 _PROPER_ I-ORG
 Corp I-ORG
@@ -126403,7 +126403,7 @@ BUDAPEST I-LOC
 _PROPER_ O
 that O
 Cofinec I-ORG
-_RARE_ I-ORG
+_ABBREV_ I-ORG
 , O
 the O
 Hungarian I-MISC
@@ -127577,7 +127577,7 @@ in O
 the O
 lawsuit O
 with O
-_RARE_ I-ORG
+_ABBREV_ I-ORG
 Faulding I-ORG
 & I-ORG
 Co I-ORG
@@ -137609,7 +137609,7 @@ border O
 and O
 Washington I-LOC
 , I-LOC
-_RARE_ I-LOC
+_ABBREV_ I-LOC
 , O
 collided O
 with O
@@ -138617,7 +138617,7 @@ _RARE_ I-ORG
 
 _PROPER_ O
 Commissioner O
-_RARE_ I-PER
+_ABBREV_ I-PER
 _PROPER_ I-PER
 _RARE_ O
 allegations O
@@ -149258,7 +149258,7 @@ _ABBREV_ I-ORG
 _PROPER_ I-ORG
 
 8 O
-_RARE_ I-PER
+_PROPER_ I-PER
 _PROPER_ I-PER
 ( O
 Italy I-LOC
@@ -149266,7 +149266,7 @@ Italy I-LOC
 Aki I-PER
 
 9 O
-_RARE_ I-PER
+_PROPER_ I-PER
 McEwen I-PER
 ( O
 Australia I-LOC
@@ -160294,7 +160294,7 @@ could O
 _RARE_ O
 _RARE_ O
 President O
-_RARE_ I-PER
+_ABBREV_ I-PER
 _PROPER_ I-PER
 and O
 former O
@@ -160322,7 +160322,7 @@ leader O
 and O
 former O
 president O
-_RARE_ I-PER
+_ABBREV_ I-PER
 De I-PER
 _PROPER_ I-PER
 said O
@@ -161579,7 +161579,7 @@ Tuesday O
 because O
 of O
 the O
-_RARE_ I-LOC
+_ABBREV_ I-LOC
 public O
 holiday O
 on O
@@ -162706,7 +162706,7 @@ for O
 his O
 _RARE_ O
 of O
-_RARE_ I-PER
+_ABBREV_ I-PER
 _PROPER_ I-PER
 's O
 _RARE_ O
@@ -162779,7 +162779,7 @@ time O
 
 _DIGIT_ O
 - O
-_RARE_ I-PER
+_ABBREV_ I-PER
 ( I-PER
 _PROPER_ I-PER
 ) I-PER
@@ -165247,7 +165247,7 @@ _PROPER_ I-PER
 _PROPER_ I-PER
 _PROPER_ I-PER
 , O
-_RARE_ I-PER
+_ABBREV_ I-PER
 _PROPER_ I-PER
 and O
 _PROPER_ I-PER
@@ -171308,7 +171308,7 @@ TOTAL O
 : O
 _PARTNUM_ O
 
-_RARE_ I-ORG
+_ABBREV_ I-ORG
 Edwards I-ORG
 & I-ORG
 _PROPER_ I-ORG
@@ -174532,7 +174532,7 @@ Tamil I-MISC
 refugees O
 . O
 
-_RARE_ I-PER
+_ABBREV_ I-PER
 _PROPER_ I-PER
 
 _RARE_ I-LOC
@@ -177516,7 +177516,7 @@ _PROPER_ O
 School O
 District O
 , O
-_RARE_ I-LOC
+_ABBREV_ I-LOC
 , O
 $ O
 5 O
@@ -183000,7 +183000,7 @@ stated O
 
 Shr O
 ( O
-_RARE_ I-LOC
+_ABBREV_ I-LOC
 cents O
 ) O
 _PARTNUM_ O
@@ -183009,7 +183009,7 @@ _PARTNUM_ O
 
 Dividend O
 ( O
-_RARE_ I-LOC
+_ABBREV_ I-LOC
 cents O
 ) O
 _PARTNUM_ O
@@ -200757,7 +200757,7 @@ store O
 owner O
 . O
 
-_RARE_ I-PER
+_ABBREV_ I-PER
 Simpson I-PER
 _RARE_ O
 at O
@@ -200772,7 +200772,7 @@ Frank I-PER
 WASHINGTON I-LOC
 1996-08-29 O
 
-_RARE_ I-PER
+_ABBREV_ I-PER
 Simpson I-PER
 said O
 on O
@@ -201228,7 +201228,7 @@ of O
 protesters O
 from O
 the O
-_RARE_ I-ORG
+_ABBREV_ I-ORG
 _PROPER_ I-ORG
 _PROPER_ I-ORG
 _PROPER_ I-ORG
@@ -201515,7 +201515,7 @@ foot O
 
 _RARE_ I-LOC
 , O
-_RARE_ I-LOC
+_ABBREV_ I-LOC
 1996-08-29 O
 
 Health O
@@ -203237,7 +203237,7 @@ it O
 , O
 " O
 _PROPER_ I-PER
-_RARE_ I-PER
+_ABBREV_ I-PER
 Thomas I-PER
 said O
 in O

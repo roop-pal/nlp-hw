@@ -97,3 +97,5 @@ with open('6.txt', 'w') as outfile:
 # ORG:     0.584724       0.680867        0.629144
 # LOC:     0.869128       0.706107        0.779182
 # MISC:    0.847569       0.700326        0.766944
+
+# Though the precision decreased, the recall greatly increased, giving the best f1-scores.

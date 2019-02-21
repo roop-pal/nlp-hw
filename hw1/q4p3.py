@@ -44,8 +44,8 @@ def tag(x):
     return original, max_y, str(log(max_e))
 
 with open('prediction_file.txt', 'w') as outfile:
-    for line in open("ner_dev.dat", 'r'):
-        line = line.strip("\n")
+    for line in open('ner_dev.dat', 'r'):
+        line = line.strip('\n')
         if line:
             outfile.write(' '.join(tag(line)))
         outfile.write('\n')

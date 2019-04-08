@@ -1,5 +1,6 @@
 import sys, os, json
 
+
 # dict with useful properties i.e. supporting d[0][1] += 1 operation (also works for lists
 class D(dict):
     def __add__(self, other):

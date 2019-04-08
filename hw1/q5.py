@@ -29,10 +29,6 @@ def q(y3, y1, y2):
 
 # Part 2
 
-def pi(k, u, v):
-    if k == 0:
-
-
 def viterbi(x):
     pi = {}
     bp = {}

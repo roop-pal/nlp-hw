@@ -1,6 +1,5 @@
 import sys, os, json
 
-
 # dict with useful properties i.e. supporting d[0][1] += 1 operation (also works for lists
 class D(dict):
     def __add__(self, other):
@@ -64,7 +63,6 @@ def cky(sentence, N, R1, R2, q, wc):
         for i in range(n - l):
             j = i + l
             for X in N:
-                assert (i, j, X) not in pi
                 pi[(i, j, X)] = 0
                 for Y, Z in R2[X]:
                     for s in range(i, j):
@@ -121,4 +119,5 @@ if __name__ == '__main__':
         os.system('python count_cfg_freq3.py ' + sys.argv[2] + ' > cfg.RARE.counts')
         q5()
     else:
-        print(sys.argv)
+        os.system('python count_cfg_freq3.py ' + sys.argv[2] + ' > cfg.RARE.counts')
+        q5()

@@ -4,6 +4,8 @@ Roop Pal (rmp2191)
 
 Run `python src\depModel.py 1 <input_p> <output_p>`
 
+python src\depModel.py 1 trees\dev.conll outputs\dev_part1.conll
+
 The performance is:
 
 Unlabeled attachment score 83.1

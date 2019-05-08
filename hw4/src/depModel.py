@@ -195,9 +195,10 @@ class DepModel:
 
 
 if __name__ == '__main__':
-    part = int(os.path.abspath(sys.argv[1]))
-    m = DepModel(part)
+    part = int(sys.argv[1])
     input_p = os.path.abspath(sys.argv[2])
     output_p = os.path.abspath(sys.argv[3])
+
+    m = DepModel(part)
     Decoder(m.score, m.actions).parse(input_p, output_p)
     Decoder(m.score, m.actions).parse(input_p.replace('dev','test'), output_p.replace('dev','test'))

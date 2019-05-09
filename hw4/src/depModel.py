@@ -86,7 +86,7 @@ class Network:
         hidden1 = self.transfer(self.hidden_layer1.expr() * embedding_layer + self.hidden_layer1_bias.expr())
 
         if self.dropout:
-            hidden1 = dynet.dropout(hidden1, 0.2)
+            hidden1 = dynet.dropout(hidden1, 0.4)
 
         hidden2 = self.transfer(self.hidden_layer2 * hidden1 + self.hidden_layer2_bias)
 

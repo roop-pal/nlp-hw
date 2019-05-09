@@ -8,9 +8,9 @@ python src\depModel.py 1 trees\dev.conll outputs\dev_part1.conll
 
 The performance is:
 
-Unlabeled attachment score 83.1
+Unlabeled attachment score 71.11
 
-Labeled attachment score 79.94
+Labeled attachment score 0.25
 
 ### Problem 2
 

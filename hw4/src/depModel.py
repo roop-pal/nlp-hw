@@ -82,8 +82,7 @@ class Network:
         embedding_layer = dynet.concatenate(word_embeds + pos_embeds + label_embeds)
 
         # calculating the hidden layer
-        # .expr() converts a parameter to a matrix expression in dynet (its a dynet-specific syntax).
-        hidden1 = self.transfer(self.hidden_layer1.expr() * embedding_layer + self.hidden_layer1_bias.expr())
+        hidden1 = self.transfer(self.hidden_layer1 * embedding_layer + self.hidden_layer1_bias)
 
         if self.dropout:
             hidden1 = dynet.dropout(hidden1, 0.4)
@@ -91,7 +90,7 @@ class Network:
         hidden2 = self.transfer(self.hidden_layer2 * hidden1 + self.hidden_layer2_bias)
 
         # calculating the output layer
-        output = self.output_layer.expr() * hidden2 + self.output_bias.expr()
+        output = self.output_layer * hidden2 + self.output_bias
 
         # return the output as a dynet vector (expression)
         return output
